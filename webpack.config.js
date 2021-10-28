@@ -10,7 +10,7 @@ module.exports = {
     },
     entry: {
         popup: path.resolve(__dirname, "./src/index-popup.js"),
-        options: path.resolve(__dirname, "./src/index-options.js"),
+        settings: path.resolve(__dirname, "./src/index-settings.js"),
         foreground: path.resolve(__dirname, "./src/index-foreground.js")
     },
     output: {
@@ -44,18 +44,18 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            filename: 'entry-popup.html',
+            filename: 'popup.html',
             template: 'src/entry-popup.html',
             chunks: ['popup']
         }),
         new HtmlWebpackPlugin({
-            filename: 'entry-settings.html',
+            filename: 'settings.html',
             template: 'src/entry-settings.html',
             chunks: ['settings']
         }),
         new HtmlWebpackPlugin({
             filename: 'foreground.html',
-            template: 'src/foreground.html',
+            template: 'src/entry-foreground.html',
             chunks: ['foreground']
         }),
         new CopyWebpackPlugin({
