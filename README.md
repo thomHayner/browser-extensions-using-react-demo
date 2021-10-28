@@ -58,9 +58,11 @@ And your ReactJS files (with their style declarations inside):
   # Settings.js
 
 9. Create Chrome-Extension specific files.
- # manifest.json
+  # manifest.json
 
 10. Create Chrome-Extension specific files.
- # background.js
+  # background.js
+This file will inject a script intom the view that allows the original webpage to remain visible in the background
 
- # foreground.js
+  # inject-script.js
+This file will create a wrapper <div> around the entire page that you are trying to view, so that the original page can be injected into the background
