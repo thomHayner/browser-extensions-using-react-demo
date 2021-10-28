@@ -56,3 +56,11 @@ And your ReactJS files (with their style declarations inside):
   # Foreground.js
   # Popup.js
   # Settings.js
+
+9. Create Chrome-Extension specific files.
+ # manifest.json
+
+10. Create Chrome-Extension specific files.
+ # background.js
+
+ # foreground.js
