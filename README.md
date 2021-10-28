@@ -66,3 +66,6 @@ This file will inject a script intom the view that allows the original webpage t
 
   # inject-script.js
 This file will create a wrapper <div> around the entire page that you are trying to view, so that the original page can be injected into the background
+
+11. Now we need to convert the ReactJS project into a Chrome Extension
+We do this in the webpack.config.js file
