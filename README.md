@@ -42,29 +42,29 @@ git push -u origin main
 ```
 
 8. Create folders for:
-  # 'src'
-  ## 'components'
+  ###### 'src'
+  ###### 'components'
 Then create files for your pop-up / modal views:
-  ### entry-foreground.html
-  #### entry-popup.html
-  ##### entry-setings.html
+  ###### entry-foreground.html
+  ###### entry-popup.html
+  ###### entry-setings.html
 Your initial Render files:
-  # index-foreground.js
-  # index-popup.js
-  # index-settings.js
+  ###### index-foreground.js
+  ###### index-popup.js
+  ###### index-settings.js
 And your ReactJS files (with their style declarations inside):
-  # Foreground.js
-  # Popup.js
-  # Settings.js
+  ###### Foreground.js
+  ###### Popup.js
+  ###### Settings.js
 
 9. Create Chrome-Extension specific files.
-  # manifest.json
+  ###### manifest.json
 
 10. Create Chrome-Extension specific files.
-  # background.js
+  ###### background.js
 This file will inject a script intom the view that allows the original webpage to remain visible in the background
 
-  # inject-script.js
+  ###### inject-script.js
 This file will create a wrapper <div> around the entire page that you are trying to view, so that the original page can be injected into the background
 
 11. Now we need to convert the ReactJS project into a Chrome Extension
