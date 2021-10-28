@@ -41,4 +41,9 @@ git branch -M main
 git push -u origin main
 ```
 
-8.
+8. Create folders for:
+  # 'src'
+  # 'components'
+Then create files for your pop-up / modal views:
+  # foreground.html
+  # 
