@@ -18,15 +18,17 @@ npm install --save-dev @babel/core @babel/plugin-proposal-class-properties @babe
 npm install react react-dom react-router-dom
 ```
 
-5. Create .gitignore file (use react .gitignore template)
+5. Create .gitignore file [(use react .gitignore template)](https://github.com/facebook/react/blob/main/.gitignore)
 
 6. Add webpack script to package.json under the "scripts" section
+```
 // package.json
 
 "scripts": {
   "build": "webpack-dev-server",
   "build:prod": "webpack -p"
 },
+```
 
 7. push to git
 ```
