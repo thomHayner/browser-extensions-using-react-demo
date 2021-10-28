@@ -43,11 +43,11 @@ git push -u origin main
 
 8. Create folders for:
   # 'src'
-  # 'components'
+  ## 'components'
 Then create files for your pop-up / modal views:
   # entry-foreground.html
-  # entry-popup.html
-  # entry-setings.html
+  ## entry-popup.html
+  ### entry-setings.html
 Your initial Render files:
   # index-foreground.js
   # index-popup.js
