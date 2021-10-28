@@ -45,5 +45,14 @@ git push -u origin main
   # 'src'
   # 'components'
 Then create files for your pop-up / modal views:
-  # foreground.html
-  # 
+  # entry-foreground.html
+  # entry-popup.html
+  # entry-setings.html
+Your initial Render files:
+  # index-foreground.js
+  # index-popup.js
+  # index-settings.js
+And your ReactJS files (with their style declarations inside):
+  # Foreground.js
+  # Popup.js
+  # Settings.js
